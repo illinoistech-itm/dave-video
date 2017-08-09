@@ -10,7 +10,7 @@ Assuming you are using Windows 10 and have an internet connection...
     -  The installation image of Windows 10 IoT Core will be automatically installed through the Dashboard.
 1) [Visual Studio IDE 2017 Community Edition](https://www.visualstudio.com/ "Visual Studio 2017")
     - UWP Tools (will be a package option during install)
-    - Windows 10 SDK (will be an advanced option under UWP Tools during install)
+    - Windows 10 SDK 10.0.15063 (will be installed by default during install)
 
 ### Installation
 
