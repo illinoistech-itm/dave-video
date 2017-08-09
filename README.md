@@ -1,10 +1,19 @@
-Step by step build to deploy the project:
-First of all, some things needed before deploying: Visual Studio 2017 and Windows 10 OS and Internet Connection.
-1.Download Windows 10 IoT Dashboard.
-2.Once in Dashboard, follow the steps the application is showing on screen.
-Things to know:
--A formatted SD card must be inserted in the laptop when the app says that (Windows 10 IoT Core (limited version of Windows 10 for IoT devices)
-is by default in Dashboard and this will be installed in the SD card inserted (16 GB Samsung EVO, class 10 works excellent).
+# Compile and Deploy
+
+## Pre-reqs 
+
+1) RaspberryPi 2/3 
+1) [Windows 10 IoT Core Dashboard](https://developer.microsoft.com/en-us/windows/iot/docs/iotdashboard "Dashboard") installed on SD Card.
+    -  Formated SD card, faster the better (16 GB Samsung EVO, class 10 works excellent).
+    -  The installation image of Windows 10 IoT Core will be automatically installed through the Dashboard.
+1) [Visual Studio IDE 2017 Community Edition](https://www.visualstudio.com/ "Visual Studio 2017")
+    - UWP Tools (will be a package option during install)
+    - Windows 10 SDK (will be an advanced option under UWP Tools during install)
++ Windows 10  
++ Internet Connection
+
+
+
 3.Mount SD card on the Raspberry Pi 3.
 4.Connect the wires as shown in the frizting diagram.
 5.When everything is connected, turn on the Raspberry Pi 3, connect to a monitor (HDMI cable) and with an Ethernet Cable to a
